@@ -3,8 +3,9 @@
 # Addition of numbers
 
 add() {
-    
-    local sum=$(( $num1+$num2 ))
+    local num1=$1
+    local num2=$2
+    sum=$(( num1+num2 ))
     echo "$sum"
 }
     result=$(add 7 2)
